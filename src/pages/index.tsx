@@ -1,6 +1,6 @@
 import { type NextPage } from 'next';
 import { useSession } from 'next-auth/react';
-import { Login } from '../components/guest/Login';
+import Login from './login';
 
 const Home: NextPage = () => {
   const { data: sessionData } = useSession();
